@@ -51,22 +51,22 @@ body {
   font-size: 40px;
 }
 
-.large-button {
+.clear-delete-buttons div {
   border: solid black 2px;
   border-radius: 10px;
   width: 42%;
 }
 
-#clear {
-  background-color: rgb(255, 158, 158);
+.clear {
+  background-color: rgb(249, 156, 156);
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 12px;
 }
 
-#delete {
-  background-color: rgb(105, 105, 217);
+.delete {
+  background-color: rgb(108, 108, 209);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,10 +85,24 @@ body {
 .small-button {
   border: black solid 2px;
   margin: 5px;
-  background-color: grey;
+  background-color: rgb(148, 148, 148);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
   border-radius: 10px;
+}
+
+.hover-small-btn {
+  background-color: rgb(95, 95, 95);
+  cursor: pointer;
+}
+
+.hover-clear-btn {
+  background-color: rgb(241, 113, 113);
+  cursor: pointer;
+}
+.hover-delete-btn {
+  background-color: rgb(75, 75, 201);
+  cursor: pointer;
 }
