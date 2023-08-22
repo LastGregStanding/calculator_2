@@ -7,3 +7,86 @@
 body {
   background-color: black;
 }
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  background-color: lightblue;
+}
+
+.calculator-body {
+  height: 800px;
+  width: 500px;
+  background-color: lightblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 40% 60%;
+}
+
+.top-half-body {
+  /* border: solid 5px red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.screen {
+  border: black solid 2px;
+  height: 140px;
+  width: 87%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.clear-delete-buttons {
+  /* border: solid blue 3px; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  font-size: 40px;
+}
+
+.large-button {
+  border: solid black 2px;
+  border-radius: 10px;
+  width: 40%;
+}
+
+#clear {
+  background-color: rgb(255, 158, 158);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#delete {
+  background-color: rgb(105, 105, 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-buttons {
+  /* border: red solid 3px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.small-button {
+  border: black solid 2px;
+  margin: 5px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 10px;
+}
