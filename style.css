@@ -36,6 +36,7 @@ body {
 
 .screen {
   border: black solid 2px;
+  background-color: white;
   height: 140px;
   width: 87%;
   margin: 0 auto;
@@ -73,7 +74,7 @@ body {
   margin-right: 13px;
 }
 
-#main-buttons {
+.main-buttons {
   /* border: red solid 3px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
