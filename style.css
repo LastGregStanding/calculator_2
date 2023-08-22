@@ -54,7 +54,7 @@ body {
 .large-button {
   border: solid black 2px;
   border-radius: 10px;
-  width: 40%;
+  width: 42%;
 }
 
 #clear {
@@ -62,6 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 12px;
 }
 
 #delete {
@@ -69,6 +70,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 13px;
 }
 
 #main-buttons {
